@@ -1,16 +1,33 @@
 header {
-    background-color: rgb(114, 119, 124);
-    color: white;
+    background-color: darkslateblue;
+    padding: 1em;
+    margin-top: 40px;
     text-align: center;
 }
 
 main {
-    background-color: lightgrey;
+    background-color: lightgray;
     padding: 1em;
+    margin-top: 20px;
+    opacity: calc(.95);
 }
 
 body {
     background-image: url("record.png");
     background-repeat: repeat;
     margin: 0;
+}
+
+.recordShop {
+    color: pink;
+}
+
+.reminder {
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.week {
+    color: rgb(247, 247, 247);
 }
